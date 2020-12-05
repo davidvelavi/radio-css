@@ -1,0 +1,19 @@
+.buttons{
+    align-items: flex-end;
+    display: flex;
+    height: 4rem;
+    position: absolute;
+    right: 6rem;
+    top: -4rem;
+}
+
+.buttons-button{
+    background-color: #FFB22D;
+    margin-left: 1rem;
+    height: 1rem;
+    width: 5rem;
+}
+
+.buttons-button.on{
+    background-color: #B90504;
+}
